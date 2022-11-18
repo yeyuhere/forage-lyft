@@ -1,0 +1,8 @@
+from tire.tire import Tire
+
+class OctoprimeTire:
+    def __init__(self, tire_data) -> None:
+        self.tire_data = tire_data
+    
+    def needs_service(self):
+        return sum(self.tire_data) >= 3
