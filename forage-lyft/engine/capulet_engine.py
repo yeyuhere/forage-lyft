@@ -1,9 +1,8 @@
-from engine import Engine
+from engine.engine import Engine
 MILEAGE_CRITERIA = 30000
 
 class CapuletEngine(Engine):
     def __init__(self, current_mileage, last_service_mileage):
-        super().__init__()
         self.current_mileage = current_mileage
         self.last_service_mileage = last_service_mileage
 

@@ -3,7 +3,6 @@ MILEAGE_CRITERIA = 60000
 
 class WilloughbyEngine(Engine):
     def __init__(self, current_mileage, last_service_mileage):
-        super().__init__()
         self.current_mileage = current_mileage
         self.last_service_mileage = last_service_mileage
 
